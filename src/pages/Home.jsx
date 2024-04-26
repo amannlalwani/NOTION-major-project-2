@@ -104,19 +104,7 @@ function Home() {
                 backgroudGradient={"grad"}
             />
         </div>
-        <div className=' mx-auto box-content w-full max-w-maxContentTab px- py-12 lg:max-w-maxContent'>
-        <h2 className='section_heading mb-6 md:text-3xl text-xl'>
-           Most Popular Courses
-        </h2>
-        <CourseSlider Courses={CatalogPageData?.selectedCourses}/>
-      </div>       
-        <div className=' mx-auto box-content w-full max-w-maxContentTab px- py-12 lg:max-w-maxContent'>
-        <h2 className='section_heading mb-6 md:text-3xl text-xl'>
-           Students are learning
-        </h2>
-        <CourseSlider Courses={CatalogPageData?.differentCourses}/>
-      </div>       
-
+    
 
                 {/* Code Section 2 */}
         <div>
